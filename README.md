@@ -1,12 +1,36 @@
 # Проект был сделан под заказ (DDD structure)
 ## Запуск проекта
 ### 1.
+```text
+TERMINAL:
+
+git clone https://github.com/coder-smookki/EDX_to_OpenAi.git
+```
+### 2.
 ```python
-openai_adapter.py
+openai_adapter.py:
 
 openai.api_key = 'API KEY'  # Вставьте свой ключ
 ```
-### 2.
+### 3.
+```text
+TERMINAL:
+
+python -m venv .venv
+```
+### 4.
+```text
+TERMINAL:
+
+pip install -r requirements.txt
+```
+### 5.
+```text
+TERMINAL:
+
+python src/main.py
+```
+### 6.
 ```text
 TERMINAL:
 
